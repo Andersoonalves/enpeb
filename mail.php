@@ -14,9 +14,7 @@ mail("vandhuy.martins@dce.ufpb.br", $assunto, "\nNome: ".$nome."\nAssunto: ".$as
 
 $site   = $email;
 $titulo = "ENPEB Mail Reply";
-$msg    = "Olá ".$nome.", obrigado por entrar em contato com o I Encontro
-					  de Professores da Educação Básica no Vale do Mamanguape, em breve
-					  entraremos em contato com você";
+$msg    = "Olá ".$nome.", obrigado por entrar em contato com o I Encontro de Professores da Educação Básica no Vale do Mamanguape, em breve entraremos em contato com você";
 
 mail($email, $titulo, $msg);
 
