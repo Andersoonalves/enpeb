@@ -10,7 +10,7 @@ $ip        = $_SERVER['REMOTE_ADDR'];
 $navegador = $_SERVER['HTTP_USER_AGENT'];
 $hora      = date("H:i");
 
-mail("ienpeb@gmail.com", $assunto, "\nNome: ".$nome."\nAssunto: ".$assunto."\nE-mail: ".$email."\n\nMensagem: \n".$mensagem."\n\n\nData: ".$data."\nIp: ".$ip."\nNavegador: ".$navegador."\nHora: ".$hora);
+mail("enpeb.ufpb@gmail.com", $assunto, "\nNome: ".$nome."\nAssunto: ".$assunto."\nE-mail: ".$email."\n\nMensagem: \n".$mensagem."\n\n\nData: ".$data."\nIp: ".$ip."\nNavegador: ".$navegador."\nHora: ".$hora);
 
 $site   = $email;
 $titulo = "ENPEB Mail Reply";
